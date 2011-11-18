@@ -37,7 +37,7 @@
 #include "CFInternal.h"
 #include <CoreFoundation/CFByteOrder.h>
 #include "CFBundle_BinaryTypes.h"
-#include <CoreFoundation/CFVersionCheck.h>
+// NOT PROVIDED: #include <CoreFoundation/CFVersionCheck.h>
 #include <ctype.h>
 #include <sys/stat.h>
 #include <stdlib.h>

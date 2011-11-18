@@ -30,7 +30,7 @@
 #include <CoreFoundation/CFPriv.h>
 #include "CFInternal.h"
 #include <string.h>
-#include <CoreFoundation/CFVersionCheck.h>
+// NOT PROVIDED: #include <CoreFoundation/CFVersionCheck.h>
 
 const CFArrayCallBacks kCFTypeArrayCallBacks = {0, __CFTypeCollectionRetain, __CFTypeCollectionRelease, CFCopyDescription, CFEqual};
 static const CFArrayCallBacks __kCFNullArrayCallBacks = {0, NULL, NULL, NULL, NULL};
